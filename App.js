@@ -58,7 +58,7 @@ class App extends Component {
         </View>
 
         <View style={styles.noAccountContainer}>
-          <Text style={styles.noAccountText}>Don't have an account?</Text>
+          <Text style={styles.noAccountText}>You already have account?</Text>
           <Text style={styles.signupupText}>Log in</Text>
         </View>
 
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
   },
   loginText: {
     fontSize: 50,
-    color: "#fc7b03"
+    color: "#5100ad"
 
   },
 
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
   },
   input: {
     borderBottomWidth: 2,
-    borderBottomColor: "#fc7b03",
+    borderBottomColor: "#5100ad",
     fontSize: 20,
     height: 50,
     marginTop:20
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
 
   inputEmail:{
     borderBottomWidth: 2,
-    borderBottomColor: "#fc7b03",
+    borderBottomColor: "#5100ad",
     fontSize: 20,
     height: 50,
     marginTop:-10
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
 
   buttonContainer:{
     height:50,
-    backgroundColor:"#fc7b03",
+    backgroundColor:"#5100ad",
     justifyContent:"center",
     alignItems:"center",
     borderRadius:10,
